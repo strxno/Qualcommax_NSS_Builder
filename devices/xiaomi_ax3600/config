@@ -18,6 +18,13 @@ CONFIG_PACKAGE_ath10k-firmware-qca9887=n
 CONFIG_PACKAGE_ath10k-firmware-qca9887-ct=n
 CONFIG_PACKAGE_kmod-ath10k-ct-smallbuffers=n
 
+## VPN / overlay networking
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_zerotier=y
+CONFIG_PACKAGE_luci-app-zerotier=y
+
 ## Hardware this board does not have.
 CONFIG_PACKAGE_kmod-phy-aquantia=n
 CONFIG_PACKAGE_kmod-usb-core=n
